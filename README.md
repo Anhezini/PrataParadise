@@ -17,6 +17,7 @@
 🌐 Acesse o site
 👉 [Clique aqui para visitar o Prata Paradise](https://prataparadise.netlify.app/)
 
-Desenvolvedor
+Desenvolvedor : 
 Felipe Anhezini [Meu LinkedIn](www.linkedin.com/in/felipe-anhezini)
+<br></br>
 Site em desenvolvimento contínuo.
