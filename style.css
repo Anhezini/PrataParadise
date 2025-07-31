@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Brown Sugar';
+    src: url(../fonts/BrownSugar.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Roman';
+    src: url(../Fontes/Roman.ttf) format('truetype');
+  }
+  
+  body {
+    background-color: #f2f1e8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .prataparadise {
+    font-family: 'Roman';
+    font-size: 80px;
+    justify-content: center;
+    color: #571102;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  
+  .logo {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    border: solid 2px #571102;
+  }
+  .logo:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  
+  footer {
+    font-size: 0.4em;
+  }
+  footer h5 {
+    font-size: 1.4em;
+  }
+  footer h6 {
+    font-size: 1.2em;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .section-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+  }
+  .btn-categoria {
+    background-color: #5b1a0d;
+    color: white;
+    border: none;
+  }
+  .btn-categoria:hover {
+    background-color: #7a2a17;
+    color: white;
+  }
+  
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .row.gx-0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .coluna-lateral {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+  }
+  
+  .coluna-lateral img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .coluna-lateral.direita img {
+    transform: scaleX(-1);
+  }
+  
+  .img-ajustada {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 767px) {
+    .coluna-lateral {
+      display: none;
+    }
+  }
+  
